@@ -51,3 +51,16 @@ def subtract(x, y):
     int or float: The result of x - y.
     """
     return x - y
+
+
+def double(x):
+    """
+    This function doubles a number.
+
+    Parameters:
+    x (int or float): The number to double.
+
+    Returns:
+    int or float: The doubled value of x.
+    """
+    return x * 2
