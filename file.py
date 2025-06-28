@@ -1,4 +1,4 @@
-def multi(x,y):
+def multi(x, y):
     """
     This function multiplies two numbers.
 
@@ -11,6 +11,7 @@ def multi(x,y):
     """
     return x * y
 
+
 def absolute(x):
     """
     This function returns the absolute value of a number.
@@ -22,6 +23,7 @@ def absolute(x):
     int or float: The absolute value of x.
     """
     return x if x >= 0 else -x
+
 
 def add(x, y):
     """
