@@ -37,3 +37,17 @@ def add(x, y):
     int or float: The sum of x and y.
     """
     return x + y
+
+
+def subtract(x, y):
+    """
+    This function subtracts the second number from the first.
+
+    Parameters:
+    x (int or float): The first number.
+    y (int or float): The second number.
+
+    Returns:
+    int or float: The result of x - y.
+    """
+    return x - y
