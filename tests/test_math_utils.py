@@ -4,7 +4,7 @@ import os
 # Pfad zu skogit/ hinzufügen, damit file.py gefunden wird
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import pytest
-from file import add, subtract, multi, absolute
+from file import add, subtract, multi, absolute, double
 
 def test_add():
     assert add(2, 3) == 5
@@ -29,3 +29,9 @@ def test_absolute():
     assert absolute(-5) == 5
     assert absolute(0) == 0
     assert absolute(-3.5) == 3.5
+
+def test_double():
+    assert double(2) == 4
+    assert double(-3) == -6
+    assert double(0) == 0
+    assert double(1.5) == 3.0
